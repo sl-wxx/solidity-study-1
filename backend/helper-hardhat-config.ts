@@ -30,3 +30,8 @@ export const networkConfig: NetworkConfigInfo = {
 }
 
 export const developmentChains = ["hardhat", "localhost"]
+
+export const CONTRACT_ADDRESS_PATH_FOR_FRONTEND =
+  "../frontend/constants/contract-address.json"
+
+export const ABI_PATH_FOR_FRONTEND = "../frontend/constants/abi.json"
